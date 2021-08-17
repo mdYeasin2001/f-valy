@@ -1,9 +1,12 @@
 import React from 'react';
-const store = "store"
+import AppRouter from './AppRouter';
+import Header from './components/common/Header';
 function App() {
   return (
     <div>
-      <h1>{store}</h1>
+      <AppRouter>
+        <Header />
+      </AppRouter>
     </div>
   );
 }
