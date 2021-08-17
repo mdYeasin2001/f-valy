@@ -1,5 +1,6 @@
 import React from 'react';
 var number = 0
+var count = null
 function App() {
   return (
     <div>
