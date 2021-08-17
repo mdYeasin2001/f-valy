@@ -1,6 +1,6 @@
 import React from 'react';
-var number = 0
-var count = null
+const greeting = 'welcome';
+const welcome = 'hi';
 function App() {
   return (
     <div>

@@ -25,11 +25,6 @@
     "format": "npx prettier --write . '!**/*.{ts,tsx}'",
     "prepare": "husky install"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "eslintConfig": {
     "extends": [
       "react-app",
