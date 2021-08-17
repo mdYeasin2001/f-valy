@@ -1,5 +1,5 @@
 import React from 'react';
-var hello = ''
+var number = 0
 function App() {
   return (
     <div>

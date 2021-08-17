@@ -27,7 +27,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npx eslint --fix --ext .ts,.tsx ."
+      "pre-commit": "lint-staged"
     }
   },
   "eslintConfig": {
@@ -64,6 +64,9 @@
     "prettier": "2.3.2"
   },
   "lint-staged": {
-    "*.{ts,tsx}": "prettier --write"
+    "*.{ts,tsx}": [
+      "npx eslint --fix --ext .ts,.tsx .",
+      "prettier --write"
+    ]
   }
 }
