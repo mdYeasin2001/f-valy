@@ -1,5 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npx prettier --write . '**/*.{ts,tsx}'
-git add .
+npx eslint --fix --ext .ts,.tsx . && npx prettier --write . '**/*.{ts,tsx}'

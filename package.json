@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint:fix": "npx eslint --fix --ext .ts,.tsx .",
-    "format": "npx prettier --write . '!**/*.{ts,tsx}'",
+    "format": "npx prettier --write . '**/*.{ts,tsx}'",
     "prepare": "husky install"
   },
   "eslintConfig": {
