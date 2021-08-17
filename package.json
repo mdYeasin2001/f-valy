@@ -25,6 +25,11 @@
     "format": "npx prettier --write . '!**/*.{ts,tsx}'",
     "prepare": "husky install"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx eslint --fix --ext .ts,.tsx ."
+    }
+  },
   "eslintConfig": {
     "extends": [
       "react-app",

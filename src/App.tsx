@@ -1,6 +1,5 @@
 import React from 'react';
-var hello = 'greeting'
-
+var hello = ''
 function App() {
   return (
     <div>
